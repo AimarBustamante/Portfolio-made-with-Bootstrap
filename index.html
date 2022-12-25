@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Aimar Bustamante">
+  <meta name="description" content="Portafolio hecho con Bootstrap">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TITLE -->
+  <title>Bootstrap - Portafolio</title>
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ** ----- Header ----- ** -->
+
+  <header>
+
+    <!-- ** ---- Nav - Bar ---- ** -->
+
+    <nav class="navbar navbar-expand-md navbar-light">
+
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="wesite-logo">
+          </a>
+
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#aboutme">Sobre mi</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#proyects">Proyectos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonios</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+            
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+    <!-- ** ---- Hero ---- ** -->
+
+    <section class="hero align-items-lg-stretch">
+
+      <div class="hero-principal">
+        <img src="imagenes/imagenes-desarrolladores/desarrollador2.svg" class="hero-img" alt="aimar-picture">
+        <h1>Hola, soy Aimar Bustamante</h1>
+        <h2>Desarrollador Frontend</h2>
+      </div>
+
+      <div class="hero-inferior">
+        <img src="imagenes/hero-inferior.svg" class="hero-inferior-imgagen img-fluid" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React">
+      </div>
+
+    </section>
+
+  </header>
+
+  <!-- ** ----- Main ----- ** -->
+
+  <main>
+    
+    <!-- ** ----- About Me ----- ** -->
+
+    <section id="aboutme" class="sobre-mi seccion-oscura">
+
+      <div class="contenedor">
+
+        <h2 class="seccion-titulo">Conoce a Aimar Bustamante</h2>
+
+        <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam iste vero adipisci officia repudiandae labore. Vel obcaecati assumenda eius iure officia fuga fugit ullam explicabo delectus ad repellendus repellat beatae at dolore, dolorem soluta cumque fugiat dicta laborum ut est corrupti veniam dolores sequi.</p>
+
+      </div>
+
+    </section>
+
+    <!-- ** ---- Experience ---- ** -->
+
+    <section class="experiencia seccion-clara">
+
+      <div class="container text-center">
+
+        <div class="row">
+
+          <!-- ** --- Desarrollo Web --- ** -->
+
+          <div class="columna col-12 col-md-4">
+
+            <i class="bi bi-laptop"></i>
+
+            <p class="experiencia-titulo">Desarrollo Web</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad consequatur at veniam nesciunt sapiente mollitia!</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+
+          </div>
+
+          <!-- ** --- Articulos --- ** -->
+
+          <div class="columna col-12 col-md-4">
+
+            <i class="bi bi-laptop"></i>
+
+            <p class="experiencia-titulo">Articulos</p>
+
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad consequatur at veniam nesciunt sapiente mollitia!
+            </p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escritura</span>
+              <span class="badge text-bg-primary">Edición</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+
+          </div>
+
+          <!-- ** --- Estudiante --- ** -->
+
+          <div class="columna col-12 col-md-4">
+
+            <i class="bi bi-laptop"></i>
+
+            <p class="experiencia-titulo">Estudios</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad consequatur at veniam nesciunt sapiente mollitia!</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">freeCodeCamp</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Python</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ** ---- Proyects ---- ** -->
+
+    <section id="proyects" class="proyectos-recientes seccion-clara d-flex flex-column">
+
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+      <h3 class="seccion-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, delectus.</h3>
+
+      <!-- ** --- Proyect Gallery --- ** -->
+
+      <div class="container text-center proyectos-contenedor">
+
+        <div class="row">
+
+          <!-- ** -- Proyect 1 -- ** -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="proyecto">
+
+              <img src="imagenes/proyecto1.png" alt="proyecto1">
+
+              <div class="overlay">
+
+                <p>Proyecto 1</p>
+
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+
+                  <a href="https://www.freecodecamp.org/espanol" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+
+                <div class="iconos-contenedor">
+
+                  <a href=""></a>
+                  <a href=""></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- ** -- Proyect 2 -- ** -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="proyecto">
+
+              <img src="imagenes/proyecto2.png" alt="proyecto1">
+
+              <div class="overlay">
+
+                <p>Proyecto 2</p>
+
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+
+                  <a href="https://www.freecodecamp.org/espanol" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+
+                <div class="iconos-contenedor">
+
+                  <a href=""></a>
+                  <a href=""></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          
+          <!-- ** -- Proyect 3 -- ** -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="proyecto">
+
+              <img src="imagenes/proyecto3.png" alt="proyecto1">
+
+              <div class="overlay">
+
+                <p>Proyecto 3</p>
+
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+
+                  <a href="https://www.freecodecamp.org/espanol" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+
+                <div class="iconos-contenedor">
+
+                  <a href=""></a>
+                  <a href=""></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- ** -- Proyect 4 -- ** -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="proyecto">
+
+              <img src="imagenes/proyecto4.png" alt="proyecto1">
+
+              <div class="overlay">
+
+                <p>Proyecto 4</p>
+
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+
+                  <a href="https://www.freecodecamp.org/espanol" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+
+                <div class="iconos-contenedor">
+
+                  <a href=""></a>
+                  <a href=""></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- ** -- Proyect 5 -- ** -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="proyecto">
+
+              <img src="imagenes/proyecto5.png" alt="proyecto1">
+
+              <div class="overlay">
+
+                <p>Proyecto 5</p>
+
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+
+                  <a href="https://www.freecodecamp.org/espanol" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+
+                <div class="iconos-contenedor">
+
+                  <a href=""></a>
+                  <a href=""></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- ** -- Proyect 6 -- ** -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="proyecto">
+
+              <img src="imagenes/proyecto6.png" alt="proyecto1">
+
+              <div class="overlay">
+
+                <p>Proyecto 6</p>
+
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+
+                  <a href="https://www.freecodecamp.org/espanol" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+
+                <div class="iconos-contenedor">
+
+                  <a href=""></a>
+                  <a href=""></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+
+    </section>
+
+    <!-- ** ---- Articles ---- ** -->
+
+    <section class="articulos justify-content-start">
+
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+
+      <div class="card">
+
+        <div class="card-header">
+          Más recientes
+        </div>
+
+        <ul class="list-group list-group-flush">
+
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Cómo crear una aplicación de calculadora HTML desde cero usando JavaScript
+            </li>
+          </a>  
+          
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Cómo usar iconos SVG en React con React Icons y Font Awesome
+            </li>
+          </a>  
+          
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Renderizando del lado del cliente vs. renderizando del lado del servidor: por qué no todo es blanco y negro
+            </li>
+          </a>  
+          
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Redux Thunk explicado con ejemplos
+            </li>
+          </a>  
+          
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Cómo agregar estilos a tu aplicación de React: 5 formas de escribir CSS en 2021
+            </li>
+          </a>  
+          
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Anunciado los contribuyentes destacados de freeCodeCamp en 2022
+            </li>
+          </a> 
+
+        </ul>
+
+      </div>
+
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más articulos <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+
+    </section>
+
+    <!-- ** ---- Testimonials ---- ** -->
+
+    <section id="testimonials" class="testimonios seccion-clara">
+
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripción text-center">Estos son algunos testimonios de mis clientes...</h3>
+
+      
+      <!-- ** --- Carousel --- ** -->
+
+      <div id="testimonios-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            
+            <div class="container">
+
+              <img src="imagenes/cliente1.svg" alt="Foto de Gino" class="testimonio-imagen">
+
+              <p class="testimonio-texto text-center">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae deleniti repellendus beatae, delectus perspiciatis explicabo ducimus ratione, aut qui et mollitia.
+              </p>
+
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de Proyectos en Desarrollo Web</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="carousel-item">
+
+            <div class="container">
+
+              <img src="imagenes/cliente2.svg" alt="Foto de Nora" class="testimonio-imagen">
+
+              <p class="testimonio-texto text-center">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae deleniti repellendus beatae, delectus perspiciatis explicabo ducimus ratione, aut qui et mollitia.
+              </p>
+
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="carousel-item">
+
+            <div class="container">
+
+              <img src="imagenes/cliente3.svg" alt="Foto de Leonardo" class="testimonio-imagen">
+
+              <p class="testimonio-texto text-center">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae deleniti repellendus beatae, delectus perspiciatis explicabo ducimus ratione, aut qui et mollitia.
+              </p>
+
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de AprendeAProgramar</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- ** ---- Contact ---- ** -->
+
+    <section id="contact" class="contacto seccion-oscura">
+
+      <div class="container">
+
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+
+          <div class="row">
+
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+
+            <div class="col-12 col-md-4 descriction">
+              Contactame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad
+            </div>
+
+            <div class="col-12 col-md-4">
+              <a href="mailto:aimarbustamante379@gmail.com" target="_blank" rel="noopener noreferrer">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-fill"></i>
+                </button>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    
+  </main>
+
+  <!-- ** ----- Footer ----- ** -->
+
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+
+    <img src="imagenes/icono-blanco.svg" class="footer-icono" alt="portfolio-logo--white">
+    <p class="footer-texto text-center">Aprendo y creo algo nuevo todos los días.<br>Creemos un proyecto juntos.</p>
+
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+
+      <a href="https://twitter.com/freecodecampes" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      
+      <a href="https://github.com/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      
+      <a href="https://www.linkedin.com/school/free-code-camp/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      
+      <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      
+      <a href="mailto:aimarbustamante379@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+
+    </div>
+
+    <div class="derechos-de-autor text-center">
+
+      <p>
+        Codeado por <a href="https://aimarbusta.netlify.app/" target="_blank" rel="noopener noreferrer">Aimar Bustamante</a>
+      </p>
+      
+      <p>
+        Agradecimientos a <a href="https://www.freecodecamp.org/espanol/learn/" target="_blank" rel="noopener noreferrer">freeCodeCamp Español</a> y a <a href="https://github.com/estefaniacn" target="_blank" rel="noopener noreferrer">Estefania Cassingena Navone</a> por el tutorial.
+      </p>
+
+      <p>&copy;Todos los derechos reservados</p>
+
+    </div>
+
+  </footer>
+
+  <!-- BOOTSTRAP - JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
