@@ -13,14 +13,10 @@ Este portafolio fue hecho como un proyecto de práctica con Bootstrap. No tiene 
 ### Tecnologies / Tecnologias
 
 #### EN
-The portfolio was created with the next Tecnologies. Additionally Google Fonts was used to customize the fonts, Font Awesome for the icons and Scroll Reveal for the scroll effect.
+The project was mostly created with HTML and Bootstrap, however, CSS was used to style certain required sections.
 
 #### ES
-El portafolio fue creado con las siguientes tecnologías. Adicionalmente se utilizó Google Fonts para personalizar las fuentes, Font Awesome para los iconos y Scroll Reveal para el efecto scroll
-
-- HTML
-- CSS
-- Bootstrap
+El proyecto fue mayormente creado con HTML y Bootstrap, sin embargo, se usó CSS para estilizar ciertas secciones requeridas
 
 ### Proyect / Proyecto
 
