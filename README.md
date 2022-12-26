@@ -1,5 +1,7 @@
 # Portfolio-made-with-Bootstrap
 
+![Mockup](https://github.com/AimarBustamante/Portfolio-made-with-Bootstrap/blob/main/imagenes/Portfolio%20with%20Bootstrap%20Mockup.png)
+
 Welcome / Bienvenido
 
 ## About the proyect / Acerca del Proyecto
